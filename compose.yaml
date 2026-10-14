@@ -1,0 +1,7 @@
+﻿services:
+  booqit.api:
+    image: booqit.api
+    build:
+      context: .
+      dockerfile: Booqit.API/Dockerfile
+
